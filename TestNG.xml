@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="MyFirstProject">
+
+    <listeners>
+        <listener class-name="BaseTestTracking"> </listener>
+    </listeners>
+
+    <test name="regression">
+        <classes>
+            <class name="SimpleAction1Test"> </class>
+            <class name="SimpleAction2Test"> </class>
+            <class name="SimpleAction3Test"> </class>
+            <class name="LocatorAbs1Test"> </class>
+            <class name="LocatorAbs2Test"> </class>
+            <class name="KeysClassTest"> </class>
+            <class name="SynchronizationTest"> </class>
+            <class name="TabHandlingTest"> </class>
+            <class name="IFrameTest"> </class>
+            <class name="SelectClassTest"> </class>
+            <class name="ActionClassTest"> </class>
+            <class name="ForLoop1Test"> </class>
+            <class name="AlertTest"> </class>
+            <class name="CheckBoxTest"> </class>
+        </classes>
+    </test>
+
+</suite>
